@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.color-nav {
+  background-color: orange;
+}
+
+.links-llamada {
+  font-size: large;
+  opacity: 1.0 !important;
+  text-align: right !important;
+}
+
+.nombre-colegio {
+  text-shadow: 2px 2px 3px black;
+  text-align: left;
+}
+
+.text-slider1 {
+  color:white;
+  background-color: #730639;
+  font-size: large !important;
+}
+
+.logo-ctm {
+  max-width: 8%;
+}
+
+.titulo-slider {
+  font-weight: bold;
+}
+
+.carousel {
+  max-height: 50%;
+}
+
+.menu-ctm {
+  background-color: steelblue;
+  text-align: center;
+}

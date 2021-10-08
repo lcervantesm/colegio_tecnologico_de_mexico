@@ -2,31 +2,21 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from '../../assets/img/logoCTM.png';
 
 function NavbarBootstrap(props) {
     return(
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar className="color-nav" sticky="top" collapseOnSelect expand="lg" variant="dark">
         <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <img className="logo-ctm" alt="logo-colegio-tecnologico-de-mexico" src={logo}></img>
+        <Navbar.Brand className="nombre-colegio"href="#home">Colegio <br></br>Tecnológico de México</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown>
             </Nav>
             <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-                Dank memes
-            </Nav.Link>
+                <Nav.Link className="links-llamada" href="tel:5557564938">¡Llámanos!</Nav.Link>
+                <Nav.Link className="links-llamada" href="tel:5557564938">+52 55 5756 4938</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Container>
