@@ -7,13 +7,7 @@ function CarouselMain (props) {
     return (
         <Carousel className="carousel"variant="dark">
             <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src={slider1}
-                    alt="First slide"
-                    width="1200px"
-                    max-width="1200px"
-                    />
+                    <img className="d-block w-100" src={slider1} alt="LIC IPN"></img>
                 <Carousel.Caption className="text-slider1">
                     <h5 className="titulo-slider">Accede a mejores oportunidades con nuestros programas avalados por el IPN.</h5>
                     <p> <br></br>Tenemos los mismos planes de estudio que el IPN para Bachillerato y Licenciaturas.</p>
