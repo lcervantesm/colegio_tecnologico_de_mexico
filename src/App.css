@@ -50,6 +50,7 @@
 .nombre-colegio {
   text-shadow: 2px 2px 3px black;
   text-align: left;
+  font-size: 1.5rem !important;
 }
 
 .text-slider1 {
@@ -73,4 +74,29 @@
 .menu-ctm {
   background-color: steelblue;
   text-align: center;
+}
+
+.subtitulo {
+  color: steelblue;
+}
+
+.texto-pagina {
+  text-align: left;
+  color: steelblue;
+}
+
+.mensaje-bienvenida {
+  text-align: left;
+  color: steelblue;
+}
+
+.admisiones {
+  background-color: orange;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.admisiones-button {
+  background-color: steelblue;
+  text-shadow: none;
 }
