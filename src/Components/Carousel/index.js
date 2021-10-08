@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import slider1 from '../../assets/img/_DSC1602.jpeg';
+import slider1 from '../../assets/img/_DSC1602.png';
 import slider2 from '../../assets/img/_DSC1631.jpeg';
 import slider3 from '../../assets/img/_DSC1576.jpeg';
 
@@ -7,7 +7,8 @@ function CarouselMain (props) {
     return (
         <Carousel className="carousel"variant="dark">
             <Carousel.Item>
-                    <img className="d-block w-100" src={slider1} alt="LIC IPN"></img>
+                    <img className="d-block w-100" src={slider1} alt="LIC IPN"
+                    />
                 <Carousel.Caption className="text-slider1">
                     <h5 className="titulo-slider">Accede a mejores oportunidades con nuestros programas avalados por el IPN.</h5>
                     <p> <br></br>Tenemos los mismos planes de estudio que el IPN para Bachillerato y Licenciaturas.</p>
