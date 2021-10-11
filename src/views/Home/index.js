@@ -5,7 +5,8 @@ import Col from 'react-bootstrap/Col';
 import FotoBienvenida from '../../assets/img/_DSC1604.png';
 import BannerAdmisiones from '../../Components/BannerAdmisiones';
 import CarouselMain from '../../Components/Carousel';
-
+import OfertaTable from '../../Components/OfertaTable';
+import ContactForm from '../../Components/ContactForm';
 class Home extends React.Component {
     render() {
         return(
@@ -29,7 +30,10 @@ class Home extends React.Component {
                         <br></br>
                     </Container>
                     <BannerAdmisiones />
-
+                        <br></br><br></br>
+                    <OfertaTable/>
+                    <ContactForm/>
+                    <br></br><br></br>
             </div>
         );
     }

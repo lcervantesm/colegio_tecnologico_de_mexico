@@ -82,7 +82,7 @@
 
 .texto-pagina {
   text-align: left;
-  color: steelblue;
+  color: black;
 }
 
 .mensaje-bienvenida {
@@ -94,9 +94,96 @@
   background-color: orange;
   color: white;
   text-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 2px steelblue;
 }
 
 .admisiones-button {
   background-color: steelblue;
   text-shadow: none;
+  box-shadow: 2px 2px 2px black;
+}
+
+.card {
+  border:none;
+  padding: 10px 50px;
+}
+
+.card::after {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card:hover {
+
+
+  transform: scale(1.02, 1.02);
+  -webkit-transform: scale(1.02, 1.02);
+  backface-visibility: hidden;
+  will-change: transform;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+.card:hover .btn-outline-primary{
+  color:white;
+  background:orange;
+}
+
+.container-fluid{
+  background: linear-gradient(90deg, steelblue 0%, orange 100%);
+}
+
+.btn-lg {
+  border-radius:30px;
+}
+
+.card-title {
+  color: steelblue;
+}
+
+.placeholder-form {
+  text-align: left;
+}
+
+.form {
+  text-align: left;
+  max-width: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-form {
+  color:orange;
+}
+
+.footer {
+  background-color: steelblue;
+}
+
+.subtitle-footer {
+  color: orange;
+  text-align: left;
+}
+
+.second-list-footer {
+  color:white;
+  text-align: left;
+  font-size: x-small;
+}
+
+.footer-link {
+  text-align: left !important;
+  color: white;
+  font-size: smaller;
+}
+
+.footer-text {
+  text-align: left !important;
 }
