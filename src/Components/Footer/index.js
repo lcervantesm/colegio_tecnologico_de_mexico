@@ -47,8 +47,17 @@ export default class Footer extends Component {
                                 Aviso de Privacidad
                             </Link>
                             </Col>
-                        </Row>
+                        </Row><br></br>
+                        
                     </Container>
+                    <Row className="copyright">
+                            <Col xs={12} md={12}>
+                            <br></br>
+                            <Container className="footer-copyright">
+                            Copyright © Colegio Tecnológico de México. Todos los derechos reservados. 2021
+                            </Container><br></br>
+                            </Col>
+                        </Row>
                 </footer>
             </div>
         );

@@ -7,6 +7,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './views/Home';
+import About from './views/Quienes_somos';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           </header>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/quienes-somos" component={About}/>
           </Switch>
           <Footer />
       </div>

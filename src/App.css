@@ -187,3 +187,37 @@
 .footer-text {
   text-align: left !important;
 }
+
+.copyright {
+  color: white;
+  background-color: orange;
+  font-weight: bold;
+}
+
+.titulo {
+  color: orange;
+}
+
+.parrafos {
+  text-align: left;
+  font-size: medium;
+  padding: 5% !important;
+  padding-bottom: 0 !important;
+}
+
+.subtitulo-objetivo {
+  color: gray;
+}
+
+.orange-text {
+  color:orange;
+}
+
+.subtitulo1 {
+  color: steelblue;
+  text-align: left;
+}
+
+.row-mensaje-rector {
+  margin-left: 5% !important;
+}
