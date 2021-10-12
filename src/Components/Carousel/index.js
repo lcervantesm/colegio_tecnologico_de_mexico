@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import slider1 from '../../assets/img/banner comipems.png';
-/*import slider2 from '../../assets/img/_DSC1631.png';
-import slider3 from '../../assets/img/_DSC1576.png';*/
+import slider2 from '../../assets/img/banner-ctm-licenciaturas.png';
+/*import slider3 from '../../assets/img/_DSC1576.png';*/
 
 function CarouselMain (props) {
     return (
@@ -10,18 +10,14 @@ function CarouselMain (props) {
                     <img className="d-block w-100" src={slider1} alt="banner comipems"
                     />
             </Carousel.Item>
-            {/*<Carousel.Item>
+            <Carousel.Item>
                     <img
                     className="d-block w-100"
                     src={slider2}
                     alt="Second slide"
                     />
-                <Carousel.Caption className="text-slider1">
-                    <h5>Profesorado experto</h5>
-                    <p>Nuestro claustro de profesores está listo para recibirte.</p>
-                </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            {/*<Carousel.Item>
                     <img
                     className="d-block w-100"
                     src={slider3}

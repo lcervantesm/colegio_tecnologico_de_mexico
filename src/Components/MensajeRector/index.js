@@ -11,7 +11,7 @@ export default class MensajeRector extends Component {
         return (
             <div>
                 <Row className="row-mensaje-rector">
-                    <Col xs={12} md={10}>
+                    <Col xs={12} md={8}>
                     <Card className="mensaje-rector">
                         <Image src={Rector} alt="Rector-CTM" />
                         <Card.Header>Mensaje del<br></br>Rector</Card.Header>
@@ -30,7 +30,7 @@ export default class MensajeRector extends Component {
                         <br />
                     </Col>
                 </Row>
-                <Row>
+                <Row><br></br><br></br><br></br><br></br>
                     <ContactForm />
                 </Row><br></br><br></br>
             </div>

@@ -14,7 +14,7 @@ class BannerAdmisiones extends React.Component {
                     <div className="admisiones-title"><h3>ADMISIONES</h3><br></br><h5 className="admisiones-text">
                         Te invitamos a una de nuestras sesiones informativas para que podamos resolver todas tus dudas y puedas conocer nuestras instalaciones.
                     </h5>
-                    <Button className="admisiones-button" href="/contacto" size="lg">
+                    <Button className="admisiones-button" href="/admisiones" size="lg">
                         ¡Regístrate aquí!
                     </Button>
                     </div>

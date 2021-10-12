@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import Home from './views/Home';
 import About from './views/Quienes_somos';
+import Contacto from './views/Contacto';
+import Admisiones from './views/Admisiones';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/quienes-somos" component={About}/>
+            <Route exact path="/contacto" component={Contacto}/>
+            <Route exact path="/admisiones" component={Admisiones}/>
           </Switch>
           <Footer />
       </div>

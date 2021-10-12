@@ -65,8 +65,8 @@ function NavbarBootstrap(props) {
                         <NavDropdown.Item href="colegio-ciencias-matematicas">Colegio de Ciencias Matemáticas</NavDropdown.Item>
                         <NavDropdown.Item href="SSNTS">SSNTS</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="quienes-somos">Contacto</Nav.Link>
-                    <Nav.Link href="quienes-somos">Admisiones</Nav.Link>
+                    <Nav.Link href="contacto">Contacto</Nav.Link>
+                    <Nav.Link href="admisiones">Admisiones</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Container>

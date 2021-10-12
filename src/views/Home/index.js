@@ -32,6 +32,7 @@ class Home extends React.Component {
                     <BannerAdmisiones />
                         <br></br><br></br>
                     <OfertaTable/>
+                    <br></br><br></br>
                     <ContactForm/>
                     <br></br><br></br>
             </div>

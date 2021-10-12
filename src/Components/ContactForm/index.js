@@ -10,10 +10,9 @@ export default class ContactForm extends React.Component {
         return (
             <div className="container-form">
             <Container>
-                <br></br><br></br>
             <h2 className="titulo-form">¡Imagína las posibilidades!</h2><br></br><br></br>
-                <p className="left-align light">Déjanos tus datos y forma parte del Colegio Tecnológico de México. Asiste a clases, ya sea en el Plantel Sur Coapa o en el Plantel Oriente Zaragoza. Encontrarás personas que representan totalmente los valores propios del colegio, además de actividades culturales, deportivas y extracurriculares.
-                Tenemos un lugar para ti, recuerda verificar la oferta educativa de cada plantel. Tenemos más de 20 años de experiencia. Agenda un recorrido para conocer nuestras instalaciones.</p><br></br><br></br>
+                <p className="left-align light">Déjanos tus datos y forma parte del Colegio Tecnológico de México. Tenemos además de actividades culturales, deportivas y extracurriculares.
+                Recuerda verificar la oferta educativa de cada plantel. Tenemos más de 20 años de experiencia.</p><br></br><br></br>
             <Container className="form">
             <Form>
                 <Row className="mb-3">
@@ -46,7 +45,21 @@ export default class ContactForm extends React.Component {
                     <Form.Label>Programa de interés</Form.Label>
                     <Form.Control as="select" defaultValue="Escoge uno...">
                         <option>Escoge uno...</option>
-                        <option>...</option>
+                        <option>Bachillerato IPN</option>
+                        <option>Preparatoria SEP</option>
+                        <option>Lic. Ciencias de la Informática IPN</option>
+                        <option>Lic. Contaduría Pública IPN</option>
+                        <option>Lic. Administración Industrial IPN</option>
+                        <option>Lic. Informática SEP</option>
+                        <option>Lic. Contaduría Pública SEP</option>
+                        <option>Lic. Pedagogía SEP</option>
+                        <option>Lic. Mercadotecnia SEP</option>
+                        <option>Lic. Derecho SEP</option>
+                        <option>Maestría en Administración de Hospitales</option>
+                        <option>Maestría en Ciencias de la Educación</option>
+                        <option>Curso de Admisión IPN</option>
+                        <option>Curso de Admisión UNAM</option>
+                        <option>Curso de Admisión COMIPEMS</option>
                     </Form.Control>
                     </Form.Group>
                 </Row>

@@ -12,6 +12,7 @@ export default class About extends Component {
     render() {
         return (
             <div>
+                <br></br><br></br>
                 <h2 className="titulo">¿Quiénes somos?</h2>
                 <br></br><br></br>
                 <Row>
