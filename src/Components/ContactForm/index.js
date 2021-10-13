@@ -20,7 +20,8 @@ export default class ContactForm extends React.Component {
                     <Form.Label>Nombre</Form.Label>
                     <Form.Control type="text" placeholder="Introduce tu nombre" />
                     </Form.Group>
-
+                </Row>
+                <Row className="mb3">
                     <Form.Group as={Col} controlId="formGridLastName">
                     <Form.Label>Apellidos</Form.Label>
                     <Form.Control type="text" placeholder="Apellidos" />
@@ -32,7 +33,8 @@ export default class ContactForm extends React.Component {
                     <Form.Label>Email</Form.Label>
                     <Form.Control type="email" placeholder="ejemplo@ejemplo.com" />
                     </Form.Group>
-
+                </Row>
+                <Row className="mb3">
                     <Form.Group as={Col} controlId="formGridPhoneNumber">
                     <Form.Label>Teléfono</Form.Label>
                     <Form.Control type="phone-number" placeholder="Teléfono" />

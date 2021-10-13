@@ -31,7 +31,7 @@ export default class Footer extends Component {
                             <Link to='/oferta_educativa' className="footer-link">
                                 Oferta Educativa
                             </Link><br></br>
-                            <Link to='/quienes_somos' className="footer-link">
+                            <Link to='/quienes-somos' className="footer-link">
                                 ¿Quiénes somos?
                             </Link><br></br>
                             <Link to='/admisiones' className="footer-link">

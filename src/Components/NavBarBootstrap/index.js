@@ -35,7 +35,8 @@ function NavbarBootstrap(props) {
                             <NavDropdown.Item href="zaragoza">Zaragoza</NavDropdown.Item>
                         </NavDropdown>
                     <NavDropdown title="Oferta Educativa" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="bachillerato-ipn">Bachillerato IPN</NavDropdown.Item>
+                        <NavDropdown.Item href="oferta-educativa">Toda la oferta</NavDropdown.Item>
+                        {/*<NavDropdown.Item href="bachillerato-ipn">Bachillerato IPN</NavDropdown.Item>
                         <NavDropdown.Item href="preparatoria-sep">Preparatoria SEP</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="licenciaturas-ipn">Licenciaturas IPN</NavDropdown.Item>
@@ -52,7 +53,7 @@ function NavbarBootstrap(props) {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="maestrias-sep">Maestrías SEP</NavDropdown.Item>
                         <NavDropdown.Item href="administracion-hospitales-sep">Administración de Hospitales</NavDropdown.Item>
-                        <NavDropdown.Item href="ciencias-educacion-sep">Ciencias de la Educación</NavDropdown.Item>
+    <NavDropdown.Item href="ciencias-educacion-sep">Ciencias de la Educación</NavDropdown.Item>*/}
                     </NavDropdown>
                     <NavDropdown title="Educación Continua" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="diplomado-1">Diplomado 1</NavDropdown.Item>

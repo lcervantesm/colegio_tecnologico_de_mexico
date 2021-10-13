@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import OfertaTable from '../../Components/OfertaTable';
+import Stack from 'react-bootstrap/Stack';
 export default class OfertaEducativa extends Component {
     render() {
         return (
             <div>
-                <OfertaTable />
+                
             </div>
         )
     }
