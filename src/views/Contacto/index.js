@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import ListGroupItem from 'react-bootstrap/ListgroupItem';
+import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import Nav from 'react-bootstrap/Nav';
 import ContactForm from '../../Components/ContactForm';
 import FotoCoapa from '../../assets/img/biblioteca_despues.png';
