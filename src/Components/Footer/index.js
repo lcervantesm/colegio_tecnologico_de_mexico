@@ -28,7 +28,7 @@ export default class Footer extends Component {
                             </Col>
                             <Col xs={12} md={3}>
                             <h5 className="subtitle-footer">Enlaces rápidos</h5>
-                            <Link to='/oferta_educativa' className="footer-link">
+                            <Link to='/oferta-educativa' className="footer-link">
                                 Oferta Educativa
                             </Link><br></br>
                             <Link to='/quienes-somos' className="footer-link">
