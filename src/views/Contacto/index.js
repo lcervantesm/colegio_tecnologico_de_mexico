@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/Listgroup';
+import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListgroupItem';
 import Nav from 'react-bootstrap/Nav';
 import ContactForm from '../../Components/ContactForm';
