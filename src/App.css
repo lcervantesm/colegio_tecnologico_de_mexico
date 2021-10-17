@@ -221,3 +221,8 @@
 .row-mensaje-rector {
   margin-left: 25% !important;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: orange !important;
+}
