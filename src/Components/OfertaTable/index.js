@@ -8,7 +8,7 @@ export default class OfertaTable extends Component {
                     <div className="container p-5">
                         <div className="row">
 
-                            <div className="col-lg-4 col-md-12 mb-4">
+                            <div className="col-lg-12 col-md-12 mb-4">
                                 <div className="card h-100 shadow-lg">
                                     <div className="card-body">
                                         <div className="text-center p-3">
@@ -34,7 +34,7 @@ export default class OfertaTable extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-4 col-md-12 mb-4">
+                            <div className="col-lg-12 col-md-12 mb-4">
                                 <div className="card h-100 shadow-lg">
                                     <div className="card-body">
                                         <div className="text-center p-3">
@@ -59,7 +59,7 @@ export default class OfertaTable extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-4 col-md-12 mb-4">
+                            <div className="col-lg-12 col-md-12 mb-4">
                                 <div className="card h-100 shadow-lg">
                                     <div className="card-body">
                                         <div className="text-center p-3">

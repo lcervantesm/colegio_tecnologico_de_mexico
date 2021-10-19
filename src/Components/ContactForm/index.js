@@ -15,33 +15,33 @@ export default class ContactForm extends React.Component {
                 Recuerda verificar la oferta educativa de cada plantel. Tenemos más de 20 años de experiencia.</p><br></br><br></br>
             <Container className="form">
             <Form>
-                <Row className="mb-3">
+                <Row className="mb-4">
                     <Form.Group as={Col} controlId="formGridName">
                     <Form.Label>Nombre</Form.Label>
                     <Form.Control type="text" placeholder="Introduce tu nombre" />
                     </Form.Group>
                 </Row>
-                <Row className="mb3">
+                <Row className="mb-4">
                     <Form.Group as={Col} controlId="formGridLastName">
                     <Form.Label>Apellidos</Form.Label>
                     <Form.Control type="text" placeholder="Apellidos" />
                     </Form.Group>
                 </Row>
 
-                <Row className="mb-3">
+                <Row className="mb-4">
                     <Form.Group as={Col} controlId="formGridEmail">
                     <Form.Label>Email</Form.Label>
                     <Form.Control type="email" placeholder="ejemplo@ejemplo.com" />
                     </Form.Group>
                 </Row>
-                <Row className="mb3">
+                <Row className="mb-4">
                     <Form.Group as={Col} controlId="formGridPhoneNumber">
                     <Form.Label>Teléfono</Form.Label>
                     <Form.Control type="phone-number" placeholder="Teléfono" />
                     </Form.Group>
                 </Row>
 
-                <Row className="mb-3">
+                <Row className="mb-4">
 
                     <Form.Group as={Col} controlId="formGridProgram">
                     <Form.Label>Programa de interés</Form.Label>
@@ -66,7 +66,7 @@ export default class ContactForm extends React.Component {
                     </Form.Group>
                 </Row>
 
-                <Form.Group className="mb-3" id="formGridCheckbox">
+                <Form.Group className="mb-4" id="formGridCheckbox">
                     <Form.Check type="checkbox" label="Acepto Términos y Condiciones" />
                 </Form.Group>
 
