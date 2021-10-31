@@ -11,6 +11,7 @@ import About from './views/Quienes_somos';
 import Contacto from './views/Contacto';
 import Admisiones from './views/Admisiones';
 import OfertaEducativa from './views/Oferta_Educativa';
+import Planteles from './views/Planteles';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Route exact path="/contacto" component={Contacto}/>
             <Route exact path="/admisiones" component={Admisiones}/>
             <Route exact path="/oferta-educativa" component={OfertaEducativa} />
+            <Route exact path="/planteles" component={Planteles} />
           </Switch>
           <Footer />
       </div>

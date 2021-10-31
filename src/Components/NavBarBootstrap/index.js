@@ -30,10 +30,11 @@ function NavbarBootstrap(props) {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="quienes-somos">¿Quiénes somos?</Nav.Link>
-                        <NavDropdown title="Planteles" id="collasible-nav-dropdown">
+                        <Nav.Link href="planteles">Planteles</Nav.Link>
+                        {/*<NavDropdown title="Planteles" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="coapa">Coapa</NavDropdown.Item>
                             <NavDropdown.Item href="zaragoza">Zaragoza</NavDropdown.Item>
-                        </NavDropdown>
+    </NavDropdown>*/}
                     <NavDropdown title="Oferta Educativa" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="oferta-educativa">Toda la oferta</NavDropdown.Item>
                         {/*<NavDropdown.Item href="bachillerato-ipn">Bachillerato IPN</NavDropdown.Item>

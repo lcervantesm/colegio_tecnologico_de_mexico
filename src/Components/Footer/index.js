@@ -48,8 +48,9 @@ export default class Footer extends Component {
                             </Link>
                             </Col>
                         </Row><br></br>
-                        
                     </Container>
+                    <Row>
+                    </Row>
                     <Row className="copyright">
                             <Col xs={12} md={12}>
                             <br></br>
@@ -57,7 +58,7 @@ export default class Footer extends Component {
                             Copyright © Colegio Tecnológico de México. Todos los derechos reservados. 2021
                             </Container><br></br>
                             </Col>
-                        </Row>
+                    </Row>
                 </footer>
             </div>
         );
